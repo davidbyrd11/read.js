@@ -6,6 +6,7 @@
 - Check the number of words on the page and make sure they spend a reasonable amount of time on the page given that number of words
 ## End User API ##
 I was thinking it would be cool to jquery's domready:
+
 ```javascript
 $(document).read(function () {
   //do something
