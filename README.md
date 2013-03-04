@@ -11,7 +11,7 @@ Read.js is a javascript library that fires an event once the user has read a pag
 I was thinking it would be cool to jquery's domready:
 
 ```javascript
-$(document).read(function () {
+$(window).read(function () {
   //do something
 });
 ```
