@@ -1,5 +1,5 @@
 (function( $ ) {
-  $.fn.myPlugin = function() {
+  $.fn.read = function() {
   
     this.scroll(function () { // if they reach the bottom let's naively assume they've read the page
       if(this.scrollTop() + this.height() == this.document.height())
